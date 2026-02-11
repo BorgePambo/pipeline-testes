@@ -5,10 +5,10 @@ import pandas as pd
 
 def extrair_dados() -> pd.DataFrame:
     data = {
-        'nome': ['Alice Hamilton', 'Bob Dolly', 'Charlie Kenedy', 'Rita Smith'],
-        'idade': [25, 30, 28, -5],
-        'email': ['alice@mail.com', 'bob@mail.com', 'charlie@mail.com', 'rita@mail.com'],
-        'salario': [50000, 60000, 55000, 45000]
+        'nome': ['Alice Hamilton', 'Bob Dolly', 'Charlie Kenedy', 'Rita Smith', 'Kaitlin Klose'],
+        'idade': [25, 30, 28, -5, 32],
+        'email': ['alice@mail.com', 'bob@mail.com', 'charlie@mail.com', 'rita@mail.com', 'kaitlin@gmail.com'],
+        'salario': [50000, 60000, 55000, 45000, 70000, 80000]
     }
 
     return pd.DataFrame(data)
