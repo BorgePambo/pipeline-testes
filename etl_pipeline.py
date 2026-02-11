@@ -5,9 +5,9 @@ import pandas as pd
 
 def extrair_dados() -> pd.DataFrame:
     data = {
-        'nome': ['Alice Hamilton', 'Bob Dolly', 'Charlie Kenedy', 'Rita Smith', 'Kaitlin Klose'],
-        'idade': [25, 30, 28, -5, 32],
-        'email': ['alice@mail.com', 'bob@mail.com', 'charlie@mail.com', 'rita@mail.com', 'kaitlin@gmail.com'],
+        'nome': ['Alice Hamilton', 'Bob Dolly', 'Charlie Kenedy', 'Rita Smith', 'Kaitlin Klose', 'David Lee'],
+        'idade': [25, 30, 28, -5, 32, 40],
+        'email': ['alice@mail.com', 'bob@mail.com', 'charlie@mail.com', 'rita@mail.com', 'kaitlin@gmail.com', 'david@mail.com'],
         'salario': [50000, 60000, 55000, 45000, 70000, 80000]
     }
 
